@@ -1,0 +1,10 @@
+include ../../button/button
+
+mixin right_block(authorized)
+  if(authorized == false)
+    #header__right_block
+      ul(class="header__right_list")
+        li
+          +btn({title: "Войти"})
+        li
+          +btn({title: "Зарегистрироваться", isSolid: true})

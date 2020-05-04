@@ -1,6 +1,33 @@
+@import "components/header/header.scss";
+@import "components/header/__branding/header__branding.scss";
+@import "components/header/__menu/header__menu.scss";
+@import "components/header/__right_block/header__right_block.scss";
+@import "components/button/button.scss";
+
+@font-face {
+  font-family: "Montseratt";
+  src: url('./fonts/Montserrat-Regular.ttf') format('ttf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+.head-foot{
+  background-color:#eee;
+}
 $body-color: #FEFEFE;
 
 body {
   background-color: $body-color;
   margin:0;
+}
+
+ul,li{
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Montseratt', sans-serif;
+}
+
+a{
+  text-decoration: none;
 }

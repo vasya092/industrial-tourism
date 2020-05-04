@@ -1,0 +1,5 @@
+mixin btn(options)
+  -
+    var buttonClassName = "button"
+    buttonClassName += options.isSolid ? " button-solid" : " button-border"
+  button(class = buttonClassName)= options.title || "Button"

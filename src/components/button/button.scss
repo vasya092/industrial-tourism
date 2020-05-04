@@ -1,0 +1,23 @@
+.button-border {
+    background: linear-gradient(#fff, #fff) padding-box, linear-gradient(to bottom, #512DA8, #673ab7) border-box;
+    color: #512DA8;
+    padding: 8px 20px;
+    border: 2px solid transparent;
+    border-radius: 40px;
+}
+
+.button.button-solid {
+    background-image: linear-gradient(to bottom, #512DA8, #673ab7);
+    color: #ffffff;
+    padding: 11px 20px;
+    border-radius: 26px;
+    border: 0px;
+}
+
+.button{
+    font-size:12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}

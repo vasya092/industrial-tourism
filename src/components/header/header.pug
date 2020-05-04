@@ -1,0 +1,10 @@
+include ./__branding/header__branding 
+include ./__menu/header__menu 
+include ./__right_block/header__right_block
+
+
+mixin header()
+    div(class='header')
+        +header-branding()
+        +menu(0, {title: "Главная"},{title: "Каталог", isSub: true},{title: "Новости"},{title: "О проекте"})
+        +right_block(false)

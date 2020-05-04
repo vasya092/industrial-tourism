@@ -1,0 +1,10 @@
+mixin menu(id, ...items)
+
+  div(class="header__menu")
+    ul(id=id class="header__menu_list")
+      each item in items
+        - var itemClassName = "header__menu_item"
+        - var itemTitle = item.title;
+        - itemClassName += item.isSub ? " header__menu_item_hasSubmenu" : ""
+        li(class = itemClassName) 
+          a(href ="#")= item.title

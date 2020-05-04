@@ -1,0 +1,39 @@
+.header__menu{
+    width: 58%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header__menu_item {
+    display: inline-block;
+}
+
+ul.header__menu_list li {
+    margin-right:20px;
+}
+li.header__menu_item a {
+    color: rgba(31, 32, 65, 0.5);
+    font-size:15px;
+}
+.header__menu_item_hasSubmenu{
+
+}
+
+.header__menu_item_hasSubmenu::after {
+    content: "";
+    background-image: url(/assets/img/expand_more.svg);
+    color: #333;
+    background-color: #fc00;
+    font-size: 90%;
+    padding: 2px;
+    display: block;
+    display: inline-block;
+    width: 18px;
+    margin-left: 8px;
+    height: 5px;
+    top: 0px;
+    background-repeat: no-repeat;
+}
+
+li{
+    letter-spacing: 0.9px;
+}
