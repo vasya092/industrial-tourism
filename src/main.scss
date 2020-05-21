@@ -3,6 +3,7 @@
 @import "components/header/__menu/header__menu.scss";
 @import "components/header/__right_block/header__right_block.scss";
 @import "components/button/button.scss";
+@import "components/footer/footer.scss";
 
 @font-face {
   font-family: "Montseratt";
@@ -19,6 +20,10 @@ $body-color: #FEFEFE;
 body {
   background-color: $body-color;
   margin:0;
+}
+
+div#content {
+  height: 82.8vh;
 }
 
 ul,li{
